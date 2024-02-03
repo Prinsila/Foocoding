@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <header>
+        <nav class="nav">
+          <a href="/" class="logo"> <span class="highlighted"> P</span>rinsila</a>
+  
+          <div class="nav-links">
+            <a href="#home" class="nav-item nav-item-active">Home</a>
+            <a href="#about" class="nav-item">About</a>
+            <a href="#services" class="nav-item">Skills</a>
+            <a href="#projects" class="nav-item">Work</a>
+            <a href="#contact" class="nav-item">contact</a>
+          </div>
+  
+          <div class="toggler">
+            <span class="line"></span><span class="line"></span
+            ><span class="line"></span>
+          </div>
+        </nav>
+      </header>
+
+      <section class="hero container" id="home">
+        <div class="hero-info">
+         <h1 class="title">Prinsila <span class="highlighted">Nilakshi</span></h1>
+         <p class="hero-description">Web developer & Fainancial Assistant.</p>
+         <a href="#services" class="btn hero-btn">Services</a>
+       </div>
+ 
+       <div class="hero-img">
+         <img src="IMG_0261.JPG" alt="Prinsila" />
+       </div>
+  </section>
+
+  <section class="about container" id="about">
+    <div class="about-img">
+      <img src="portfolio5.JPG" alt="Prinsila" />
+    </div>
+
+    <div class="about-info">
+      <h2 class="secondery-title">About Me</h2>
+
+      <p class="description">
+        Administrative professional experienced at working in fast paced enviroments
+         demanding strong organaizational, technical and interpersonal skills seeking a 
+         position where the above skills will be fully utilized,further developed and
+          where by i will be challenged and exceed the expectations of my supervisors through
+           my education and experience.
+      </p>
+
+     
+      <a href="#" class="btn btn-secondery">More</a>
+    </div>
+  </section>
+
+  <div class="services container" id="services">
+    <div class="services-header">
+      <h2 class="secondery-title">Skills</h2>
+    </div>
+
+    <div class="grid services-grid">
+      <div class="grid-item services-item">
+        <i class="fa-solid fa-computer"></i>
+        <h3>Web Design</h3>
+        <p class="description">
+            Basic understanding of HTML, CSS and JavaScript fundamentals.
+        </p>
+      </div>
+      <div class="grid-item services-item">
+        <i class="fa-solid fa-meteor"></i>
+
+        <h3>Marketing</h3>
+        <p class="description">
+            Basic understanding of key digital marketing concepts and strategies.
+        </p>
+      </div>
+      <div class="grid-item services-item">
+        <i class="fa-solid fa-pen-nib"></i>
+        <h3>Languages</h3>
+        <p class="description">
+            I am fluent in Sinhala, English,Italian, and Swedish, possessing strong communication
+             skills in each language to effectively engage and connect with diverse audiences.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <section class="projects container" id="projects">
+    <div class="projects-header">
+      <h2 class="secondery-title">Work</h2>
+
+      <div class="projects-tab">
+        <button class="projects-tab-btn projects-tab-btn-active" id="all">
+          All
+        </button>
+        <button class="projects-tab-btn" id="design">Fainancial Assistant</button>
+        <button class="projects-tab-btn" id="seo">Marketing</button>
+        <button class="projects-tab-btn" id="ui-ux">Freelance</button>
+      </div>
+    </div>
+
+    <div class="grid projects-grid">
+      <div class="grid-item projects-item all design">
+        <img src="portfolio8.jpg" alt="" />
+      </div>
+      <div class="grid-item projects-item all design">
+        <img src="portfolioImage3.jpg" alt="" />
+      </div>
+      <div class="grid-item projects-item all seo">
+        <img src="portfolioImage4.jpg" alt="" />
+      </div>
+      <div class="grid-item projects-item all seo">
+        <img src="portfolio6.jpg" alt="" />
+      </div>
+      <div class="grid-item projects-item all ui-ux">
+        <img src="portfolio7.jpg" alt="" />
+      </div>
+      <div class="grid-item projects-item all ui-ux">
+        <img src="portfolioImage1.jpg" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <section class="container contact" id="contact">
+    <div class="contact-info">
+      <h2 class="secondery-title">Contact</h2>
+      <div class="info-container">
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="contact-info-data">
+            <h3>Address</h3>
+            <p>Malmo 212 37 </p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="contact-info-data">
+            <h3>Email</h3>
+            <p>lakmalkehara@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <i class="fa-solid fa-phone-volume"></i>
+          </div>
+          <div class="contact-info-data">
+            <h3>Phone</h3>
+            <p>0708161158</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-form">
+      <form>
+        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="Email" />
+        <textarea
+          name="message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Message"
+        ></textarea>
+        <button class="btn submit-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+      <footer class="footer">
+    <p>&copy; 2024 Created By Prinsila Nilakshi </p>
+  </footer>
+
+        <script src="./script.js"></script>
+  </body>
+</html>
