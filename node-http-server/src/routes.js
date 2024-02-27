@@ -36,13 +36,13 @@ defineRoute('GET', '/users/:id', (req, res) => {
 
 
 
-// Create a new user
+
 defineRoute('POST', '/users', (req, res) => {
   const { name, email } = req.body;
-  if (!name.req,body || !email.req.body) {
+  if (!name || !email) {
       res.setHeader('Content-Type', 'application/json');
       res.statusCode = 400;
-      res.end(JSON.stringify({ message: 'Name and email are required' }));
+      res.end(JSON.stringify({ message: 'Both name and email are required' }));
       return;
   }
 
